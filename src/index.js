@@ -1,12 +1,51 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Experience from './pages/experience';
+import Profile from './pages/profile';
+import Projects from './pages/projects';
+import SplashPage from './pages/splash-page';
+import Error404 from './pages/404';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+import {Helmet} from 'react-helmet'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Helmet>
+      <title>Cameron Mckiddie | Welcome</title>
+      <meta name='description' content='A portfolio project to showcase my work.'/>
+      <meta name='theme-color' content='#A7CBD9' />
+    </Helmet>
+    <Router>
+    <Routes>
+        <Route
+          exact path="/experience"
+          element={<Experience/>}
+        />
+        <Route
+          exact path="/profile"
+          element={<Profile/>}
+        />
+        <Route
+          exact path="/projects"
+          element={<Projects/>}
+        />
+        <Route
+          exact path="/"
+          element={<SplashPage/>}
+        />
+        <Route
+          path="*"
+          element={<Error404/>}
+        />
+      </Routes>
+    </Router>   
   </React.StrictMode>,
   document.getElementById('root')
 );
