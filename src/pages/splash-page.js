@@ -50,24 +50,30 @@ const SplashPage = () => {
             </span>
           </div>
           <span className="flex flex-row justify-center items-center p-6 mb-6">
+            <a href="https://github.com/cmcki85">
             <FontAwesomeIcon
               className="mx-4"
               icon={faGithubSquare}
               size="3x"
-              color="white"
+              color="#ffffff"
             />
-            <FontAwesomeIcon
-              className="mx-4"
-              icon={faLinkedin}
-              size="3x"
-              color="white"
-            />
-            <FontAwesomeIcon
-              className="mx-4"
-              icon={faTwitterSquare}
-              size="3x"
-              color="white"
-            />
+            </a>
+            <a href="https://www.linkedin.com/in/cameron-mckiddie-4ba196175/">
+              <FontAwesomeIcon
+                className="mx-4"
+                icon={faLinkedin}
+                size="3x"
+                color="#ffffff"
+              />
+            </a>
+            <a href="https://twitter.com/MckiddieCameron">
+              <FontAwesomeIcon
+                className="mx-4"
+                icon={faTwitterSquare}
+                size="3x"
+                color="#ffffff"
+              />
+            </a>
           </span>
         </div>}
     />  

@@ -23,11 +23,19 @@ const ProjectsPage = () => {
                     <div className="font-nav-title text-xl mb-2">Golang API</div>
                     <span className="font-body text-base">An API used for creating, deleting and altering comments made by authenticated users.</span>
                 </div>
-                <div className="px-6 pt-4 pb-2">
-                    <a
-                        href="https://github.com/cmcki85"
-                        className="inline-block border border-nav-main rounded-full px-3 py-1 text-sm font-semibold font-body text-nav-main mr-2 mb-2 hover:text-nav-hover hover:border-nav-hover">View on Github</a>
+                <div className="flex flex-row justify-items-center">
+                    <div className="px-6 pt-4 pb-2">
+                        <a
+                            href="https://github.com/cmcki85/Go-Comments-API"
+                            className="inline-block border border-nav-main rounded-full px-2 py-1 text-sm font-semibold font-body text-nav-main mb-2 hover:text-nav-hover hover:border-nav-hover">View on Github</a>
+                    </div>
+                    <div className="px-6 pt-4 pb-2">
+                        <a
+                            href="https://www.cameron-mckiddie.com.au/api/health"
+                            className="inline-block border border-nav-main rounded-full px-3 py-1 text-sm font-semibold font-body text-nav-main mr-2 mb-2 hover:text-nav-hover hover:border-nav-hover">View API docs</a>
+                    </div>
                 </div>
+                
             </div>
         </Layout>
     )

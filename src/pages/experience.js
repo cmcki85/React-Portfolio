@@ -18,6 +18,7 @@ function Experience() {
       <span className="flex justify-center font-nav-title text-3xl pb-8">
             Where I've Been
         </span>
+        
         <ContentBox
             contentTitle={"Bachelor of Computer Science + Electrical Engineering"}
             contentLocation={"Queensland University of Technology"}

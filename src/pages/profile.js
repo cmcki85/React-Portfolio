@@ -27,20 +27,17 @@ const ProfilePage = () => (
       </div>
       <hr className="h-2" />
       <p className="whitespace-pre-line">
-        In ut deserunt elit pariatur eiusmod in irure eiusmod enim duis pariatur
-        tempor ut. Eiusmod cillum quis duis adipisicing amet commodo esse sit et
-        duis exercitation officia duis. Adipisicing culpa laboris aute ea ipsum
-        sunt officia minim dolor do. Quis Lorem proident quis excepteur eiusmod
-        dolor eiusmod quis. Voluptate esse aute labore dolor excepteur cupidatat
-        irure laboris Lorem amet ipsum magna sit.
+        Hi. My name is Cameron Mckiddie and im a junior software developer trying to make a name for himself. 
+        My passion for programing was ignited the first time I compiled a program to spit out "Hello World". 
+        Since then I've been compelled to expand my knowledge and understanding of modern computing technology 
+        through doing. For the last 4 years I've tinkered with, broken and then fixed several modern applications 
+        in various languages.  
         <br />
         <br />
-        Ex veniam qui commodo sunt adipisicing duis incididunt. Laboris veniam
-        ut elit ipsum nisi sint. Cupidatat sunt ut fugiat cupidatat laborum
-        nulla sunt est elit magna fugiat reprehenderit irure. Velit irure est
-        consectetur ex aute eiusmod officia adipisicing cupidatat eu. Aliquip
-        commodo nulla aliquip proident nostrud incididunt labore adipisicing
-        occaecat esse duis et laborum aliquip.
+        Through all of my tinkering around I've come to appreciate the technology that goes into optimizing both the
+        front and back end of modern applications. I've applied myself and attempted to learn a variety of modern web 
+        languages to cover everything for front end design to databases and API's. This website acts as a portfolio 
+        that showcases my achievements and current projects.
         <br />
       </p>
     </article>

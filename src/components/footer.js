@@ -17,24 +17,31 @@ function Footer() {
       </div>
 
       <footer className="flex flex-row justify-center items-center p-6 mb-6">
-        <FontAwesomeIcon
-          className="mx-4"
-          icon={faGithubSquare}
-          size="3x"
-          color="#5A798C"
-        />
-        <FontAwesomeIcon
-          className="mx-4"
-          icon={faLinkedin}
-          size="3x"
-          color="#5A798C"
-        />
-        <FontAwesomeIcon
-          className="mx-4"
-          icon={faTwitterSquare}
-          size="3x"
-          color="#5A798C"
-        />
+        <a href="https://github.com/cmcki85">
+          <FontAwesomeIcon
+            className="mx-4"
+            icon={faGithubSquare}
+            size="3x"
+            color="#5A798C"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/cameron-mckiddie-4ba196175/">
+          <FontAwesomeIcon
+            className="mx-4"
+            icon={faLinkedin}
+            size="3x"
+            color="#5A798C"
+          />
+        </a>
+        <a href="https://twitter.com/MckiddieCameron">
+          <FontAwesomeIcon
+            className="mx-4"
+            icon={faTwitterSquare}
+            size="3x"
+            color="#5A798C"
+          />
+        </a>
+        
       </footer>
     </div>
   )
