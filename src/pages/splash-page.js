@@ -42,12 +42,12 @@ const SplashPage = () => {
             >
               Projects
             </Link>
-            <span
+            <Link
               to={`/contact`}
               className="block mt-4 mx-5 text-white font-body font-semibold lg:inline-block lg:mt-0 hover:text-nav-hover"
             >
               Contact
-            </span>
+            </Link>
           </div>
           <span className="flex flex-row justify-center items-center p-6 mb-6">
             <a href="https://github.com/cmcki85">

@@ -54,12 +54,12 @@ function Header({ siteTitle }) {
           >
             Projects
           </Link>
-          <span
+          <Link
             to={`/contact`}
             className="block mt-4 mx-5 text-nav-main font-body font-semibold lg:inline-block lg:mt-0 hover:text-nav-hover"
           >
             Contact
-          </span>
+          </Link>
         </div>
       </div>
     </nav>

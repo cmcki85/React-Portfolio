@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import Experience from './pages/experience';
 import Profile from './pages/profile';
 import Projects from './pages/projects';
+import Contact from './pages/contact';
 import SplashPage from './pages/splash-page';
 import Error404 from './pages/404';
 import {
@@ -35,6 +36,10 @@ ReactDOM.render(
         <Route
           exact path="/projects"
           element={<Projects/>}
+        />
+        <Route 
+          exact path='/contact'
+          element={<Contact/>}
         />
         <Route
           exact path="/"
