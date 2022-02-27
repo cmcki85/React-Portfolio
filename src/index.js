@@ -14,6 +14,7 @@ import {
   Route
 } from "react-router-dom";
 import {Helmet} from 'react-helmet'
+import APIDocs from './pages/API-docs';
 
 
 ReactDOM.render(
@@ -48,6 +49,10 @@ ReactDOM.render(
         <Route
           path="*"
           element={<Error404/>}
+        />
+        <Route
+          exact path="/api/docs"
+          element={<APIDocs/>}
         />
       </Routes>
     </Router>   

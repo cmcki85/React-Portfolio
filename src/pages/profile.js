@@ -16,7 +16,7 @@ const ProfilePage = () => (
     <img
       src={ProfileImg}
       alt="An open book next to a coffee cup."
-      className="flex justify-center"
+      className="flex justify-center "
     />
     <article className="flex justify-center flex-col font-body p-10 text-lg">
       <span className="font-bold">Cameron Mckiddie</span>
